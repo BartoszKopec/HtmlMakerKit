@@ -6,9 +6,9 @@ Set of tools that helps creating html elements dynamically in C# code with modif
 
 Install the standard Nuget packages into your C# project:
 
-[HtmlMakerKit]() for all set of tools.
+[HtmlMakerKit](https://www.nuget.org/packages/HtmlMakerKit) for all set of tools.
 
-[HtmlMakerKit.Core]() for tools targeted on creating html elements in general.
+[HtmlMakerKit.Core](https://www.nuget.org/packages/HtmlMakerKit.Core) for tools targeted on creating html elements in general.
 
 ### Compatibility
 

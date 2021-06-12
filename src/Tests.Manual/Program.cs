@@ -1,9 +1,9 @@
-﻿using HtmlMakerKit.Core.Element;
-using System;
+﻿using System;
+using HtmlMakerKit.Core.Element;
 
-namespace HtmlMakerKit
+namespace Tests.Manual
 {
-	internal class Program
+	class Program
 	{
 		static void Main(string[] args)
 		{
