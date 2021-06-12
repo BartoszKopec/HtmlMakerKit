@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <Authors>Barto Kopeć</Authors>
+    <Description>Tools for dynamically creating html elements</Description>
+    <Copyright>Bartosz Kopeć</Copyright>
+    <PackageProjectUrl>https://github.com/BartoszKopec/HtmlMakerKit</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+</Project>

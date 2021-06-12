@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <Version>0.5.0</Version>
+    <Authors>Barto Kopeć</Authors>
+    <Description>Tools for dynamically creating html elements</Description>
+    <Copyright>Bartosz Kopeć</Copyright>
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/BartoszKopec/HtmlMakerKit</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HtmlMakerKit.Core\HtmlMakerKit.Core.csproj" />
+  </ItemGroup>
+
+</Project>
