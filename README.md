@@ -1,6 +1,6 @@
 ## HtmlMakerKit
 
-Set of tools that helps creating html elements dynamically in C# code with modifying
+Set of tools that helps creating html elements dynamically in C# code with modifying its attributes and inner content (text and children).
 
 ## Installation  
 
