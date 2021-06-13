@@ -8,8 +8,10 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build and test:
     runs-on: ubuntu-latest
+    env:
+      SOLUTION: ./src/HtmlMakerKit.sln
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET
@@ -17,8 +19,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore .\src\HtmlMakerKit.sln
+      run: dotnet restore $SOLUTION
     - name: Build
-      run: dotnet build --no-restore .\src\HtmlMakerKit.sln
+      run: dotnet build --no-restore $SOLUTION
     - name: Test
-      run: dotnet test --no-build --verbosity normal .\src\HtmlMakerKit.sln
+      run: dotnet test --no-build --verbosity normal $SOLUTION
