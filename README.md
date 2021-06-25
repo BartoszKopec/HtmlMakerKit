@@ -20,7 +20,7 @@ Install the standard Nuget packages into your C# project:
 
 ## Usage
 
-For details visit [Wiki](https://github.com/BartoszKopec/HtmlMakerKit/wiki/Gettings-started)
+For details visit [Wiki](https://github.com/BartoszKopec/HtmlMakerKit/wiki)
 
 #### HtmlMakerKit.Core:
 ```c#
